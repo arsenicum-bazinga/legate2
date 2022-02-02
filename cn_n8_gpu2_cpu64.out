@@ -1,0 +1,6 @@
+[0 - 151950bb1000]    0.079264 {4}{threads}: reservation ('Python-1 proc 1d00000000000042') cannot be satisfied
+[0 - 151950bb1000]    0.080528 {5}{runtime}: [error 80] LEGION ERROR: Maximum number of local processors 69 exceeds compile-time maximum of 64.  Change the value LEGION_MAX_NUM_PROCS in legion_config.h and recompile. (from file /root/legate.core/legion/runtime/legion/runtime.cc:29977)
+For more information see:
+http://legion.stanford.edu/messages/error_code.html#error_code_80
+
+WARNING: Legate was compiled against the Python installation at /usr/lib/python3.8, but you are currently using the Python installation at /usr

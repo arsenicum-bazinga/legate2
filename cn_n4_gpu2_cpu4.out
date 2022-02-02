@@ -1,0 +1,8 @@
+10000
+0.00023746490478515625
+3.266334533691406e-05
+7.915496826171875e-05
+0.0002713203430175781
+0.0004341602325439453
+0.033083438873291016
+WARNING: Legate was compiled against the Python installation at /usr/lib/python3.8, but you are currently using the Python installation at /usr

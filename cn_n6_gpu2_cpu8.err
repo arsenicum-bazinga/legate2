@@ -1,0 +1,2 @@
+/opt/legate/lib/python3.8/site-packages/cunumeric/array.py:733: UserWarning: cuNumeric performing implicit type conversion from int64 to float64
+  return self.perform_binary_op(BinaryOpCode.POWER, self, rhs_array)

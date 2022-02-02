@@ -1,0 +1,11 @@
+Signal 6 received by node 0, process 3732644 (thread 149586750000) - obtaining backtrace
+Signal 6 received by process 3732644 (thread 149586750000) at: stack trace: 9 frames
+  [0] = /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x1495883aa210]
+  [1] = /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xcb) [0x1495883aa18b]
+  [2] = /lib/x86_64-linux-gnu/libc.so.6(abort+0x12b) [0x149588389859]
+  [3] = /opt/legate/lib/liblegion.so(+0x88f09a) [0x14958a29009a]
+  [4] = /opt/legate/lib/liblegion.so(Legion::Internal::Runtime::configure_runtime(int, char**, Legion::Internal::Runtime::LegionConfiguration const&, Realm::Runtime&, Realm::Processor::Kind&, bool, bool)+0x20c) [0x14958a2eba9c]
+  [5] = /opt/legate/lib/liblegion.so(Legion::Internal::Runtime::start(int, char**, bool, bool)+0xd1) [0x14958a2ed231]
+  [6] = /opt/legate/bin/legion_python(main+0x160) [0x560c56638d40]
+  [7] = /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x14958838b0b3]
+  [8] = /opt/legate/bin/legion_python(_start+0x2e) [0x560c56638e1e]
